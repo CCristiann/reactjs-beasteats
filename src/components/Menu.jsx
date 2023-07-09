@@ -22,7 +22,7 @@ export default function Menu() {
   const menuButtonsCss =
     "text-orange-500 font-semibold border-orange-500 hover:bg-orange-500 hover:text-white duration-200";
   return (
-    <section className="max-w-[1640px] mx-auto p-4">
+    <section className="max-w-[1640px] mx-auto px-8 py-4">
       <div className="menu-header my-12">
         <h1 className="w-full my-6 text-orange-500 font-bold text-4xl md:text-6xl lg-text-7xl">
           Our Menu Musts
@@ -30,7 +30,7 @@ export default function Menu() {
         <div className="filters-row flex flex-col gap-4 lg:flex-row justify-between">
           <div>
             <h3 className=" my-4 font-bold text-2xl">Filter Type</h3>
-            <div className="flex gap-4">
+            <div className="flex flex-wrap gap-4">
               <button onClick={() => setFoods(data)} className={menuButtonsCss}>
                 All
               </button>
@@ -62,7 +62,7 @@ export default function Menu() {
           </div>
           <div>
             <h3 className="my-4 font-bold text-2xl">Filter Price</h3>
-            <div className="flex gap-4">
+            <div className="flex flex-wrap gap-4">
               <button
                 onClick={() => filterPrice("$")}
                 className={menuButtonsCss}

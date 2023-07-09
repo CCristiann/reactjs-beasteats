@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Cards() {
   return (
-    <section className="max-w-[1640px] mx-auto p-4 py-12 grid md:grid-cols-3 gap-6">
+    <section className="max-w-[1640px] mx-auto px-8 p-4 py-12 grid md:grid-cols-3 gap-6">
       <div className="overlay relative rounded-xl">
         <div className="absolute p-4 w-full h-full bg-black/50 rounded-xl text-white hover:bg-black/20 duration-500">
           <p className="font-bold text-2xl px-2 pt-4">Sun's Out, BOGO's Out</p>

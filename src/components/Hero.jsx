@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Hero() {
   return (
-    <section className="max-w-[1640px] mx-auto p-4">
+    <section className="max-w-[1640px] mx-auto px-8 py-4">
       <div className="max-h-[500px] relative">
         <div className="overlay rounded-xl absolute bg-black/40 h-full w-full max-h-[500px] px-4 text-3xl sm:text-5xl md:text-6xl lg:text:7xl font-bold text-gray-200 flex flex-col justify-center">
           <h1>

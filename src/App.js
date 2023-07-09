@@ -9,11 +9,13 @@ import "./index.css";
 function App() {
   return (
     <>
+    <main>
       <Navbar />
       <Hero />
       <Cards />
       <Menu />
       <Footer />
+    </main>
     </>
   );
 }

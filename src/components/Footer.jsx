@@ -23,7 +23,7 @@ export default function Footer() {
       <div className="bg-orange-400">
         <div className="max-w-[1640px] mx-auto pb-12">
           <div className="footer-row grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 items-center">
-            <div className="flex flex-col md:justify-center gap-6 p-4">
+            <div className="flex flex-col md:justify-center gap-6 px-8 py-4">
               <h3 className="text-4xl">
                 Best<span className="font-bold">Eats</span>
               </h3>
@@ -52,7 +52,7 @@ export default function Footer() {
                 />
               </div>
             </div>
-            <div className="p-4 flex md:justify-center">
+            <div className="p-4 flex px-8 py-4 md:justify-center">
               <ul className="flex flex-col gap-2 font-semibold">
                 <li>About Us</li>
                 <li>Services</li>
@@ -62,7 +62,7 @@ export default function Footer() {
               </ul>
             </div>
 
-            <div className="p-4 flex flex-col md:justify-center gap-6">
+            <div className="p-4 flex flex-col px-8 py-4 md:justify-center gap-6">
               <h3 className="font-bold text-xl">Contact Us</h3>
               <span className="flex gap-4 items-center">
                 <MdEmail size={25} /> info@gmail.com
@@ -76,7 +76,7 @@ export default function Footer() {
               </span>
             </div>
 
-            <div className="p-4 flex flex-col md:justify-center gap-6">
+            <div className="p-4 flex flex-col px-8 py-4 md:justify-center gap-6">
               <h3 className="font-bold text-xl">Sign up for updates</h3>
               <input
                 className="py-2 px-4 font-semibold bg-gray-100 outline-0 border-white"
