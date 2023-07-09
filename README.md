@@ -6,8 +6,6 @@
 
 BeastEats
 
-👉 **Live Demo**: [Live Demo](https://nextjs-promptopia-chi.vercel.app/)
-
 \
 **Build with:** \
 » React JS \
